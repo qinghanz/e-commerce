@@ -35,7 +35,7 @@ export default class App extends Component {
 
     const products = this.state.products.map((p) => {
       if (cart[p.name]) {
-        axios.put(`http://localhost:3001/products/${p.id}`, { ...p });
+        axios.put(`http://localhost:3001/books/${p.id}`, { ...p });
       }
       return p;
     });
@@ -87,7 +87,7 @@ export default class App extends Component {
             <nav className="Header">
               <h1>MyBookStore</h1>
 
-              <Link to="/products">
+              <Link to="/books">
                 <div className="Products">Books</div>
               </Link>
 
@@ -102,7 +102,7 @@ export default class App extends Component {
             <Switch>
               <Route exact path="/" component={ProductList} />
               <Route exact path="/cart" component={Cart} />
-              <Route exact path="/products" component={ProductList} />
+              <Route exact path="/books" component={ProductList} />
             </Switch>
           </div>
         </Router>
