@@ -1,4 +1,4 @@
-# Simple e-commerce front-end
+# Simple e-commerce page
 
 This project was made as an introduction to React
 
