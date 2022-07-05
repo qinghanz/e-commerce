@@ -1,6 +1,6 @@
 # Simple e-commerce page
 
-This project was made as an introduction to Learning React
+This project was made as a simple e-commerce page.
 
 ## Available Scripts
 
