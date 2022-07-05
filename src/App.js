@@ -22,7 +22,7 @@ export default class App extends Component {
     let cart = localStorage.getItem("cart");
 
     const products = await axios.get(
-      "https://my-json-server.typicode.com/qinghanz/e-commerce/db.json/products"
+      "https://my-json-server.typicode.com/qinghanz/e-commerce/products"
     );
 
     cart = cart ? JSON.parse(cart) : {};
