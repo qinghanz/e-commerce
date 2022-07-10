@@ -1,6 +1,4 @@
-# Simple e-commerce page
-
-This project is a simple e-commerce page.
+# Simple e-commerce functionality page
 
 ## Available Scripts
 
