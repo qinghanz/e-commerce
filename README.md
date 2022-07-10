@@ -6,6 +6,6 @@ This project is a simple e-commerce page.
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm install` and `npm start`
 
 Runs the app in the development mode.\
